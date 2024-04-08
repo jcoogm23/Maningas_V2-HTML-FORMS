@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <img src="my logo.png" alt="Your Logo" class="logo">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>JE'Cuisine</title>
+</head>
+<body style="background-color: gray;">
+    <a href="index.html"></a>
+    
+        <header class="speaker-form-header">
+            <h1>Fill up Form</h1>
+    
+            <p>
+                <em>Come and Taste the Incredible Food of JE'Cuisine </em>
+            </p>
+        </header>
+    
+        <form action="" method="get" class="speaker-form">
+            <div class='form-row'>
+                <label for='full-name'>Name</label>
+                <input id='full-name' name='full-name' type='text'/>
+            </div>
+    
+            <div class='form-row'>
+                <label for='email'>Email</label>
+                <input id='email' name='email' type='email'/>
+            </div>
+
+            <div class='form-row'>
+                <label for='age'>Age</label>
+                <input id='age' name='Age' type='text'/>
+            </div>
+    
+            <fieldset class='legacy-form-row'>
+                <legend>Type of Cuisine</legend>
+                
+            </fieldset>
+
+            <div id="dropdown">
+                <button class="dropdown-toggle">
+                    <span>Menu</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </button>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#">Italian</a></li>
+                    <li class="menu-item"><a href="#">Chinese</a></li>
+                    <li class="menu-item dropdown">
+                        <a href="#" class="submenu-toggle">
+                            <span>Healthy Options</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li class="submenu-item"><a href="#">Vegetarian</a></li>
+                            <li class="submenu-item"><a href="#">Vegan</a></li>
+                            <li class="submenu-item"><a href="#">Gluten-Free</a></li>
+                        </ul>
+                     </li>
+                    <li class="menu-item"><a href="#">Mexican</a></li>
+                    <li class="menu-item dropdown">
+                        <a href="#" class="submenu-toggle">
+                            <span>Specials</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li class="submenu-item"><a href="#">Dairy-Free</a></li>
+                            <li class="submenu-item"><a href="#">Paleo-Friendly Options</a></li>
+                            <li class="submenu-item"><a href="#">Low-Carb/Keto-Friendly </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+                <legend>Additional Options</legend>
+                <script src='script.js'></script>
+                <fieldset class='legacy-form-row'>
+                    <legend>Mode of Payment</legend>
+                    <input id='seminar-type-1' name='seminar-type' type='radio' value='main-stage' checked/>
+                    <label for='seminar-type-1' class='radio-label'>Cash</label>
+        
+                    <input id='seminar-type-2' name='seminar-type' type='radio' value='workshop'/>
+                    <label for='seminar-type-2' class='radio-label'>Gcash</label>
+                </fieldset>
+
+                <fieldset class='legacy-form-row'>
+                    <legend>Dine-in/Take-out:</legend>
+                    <input id='seminar-type-1' name='seminar-type' type='radio' value='main-stage' checked/>
+                    <label for='seminar-type-1' class='radio-label'>Dine-in</label>
+        
+                    <input id='seminar-type-2' name='seminar-type' type='radio' value='workshop'/>
+                    <label for='seminar-type-2' class='radio-label'>Take-out</label>
+                </fieldset>
+    
+            <div class='form-row'>
+                <label for='comment'>Comments/Inst</label>
+                <textarea id='Comment' name='Comment'></textarea>
+                <div class='instructions'>You can put a comment here if you have a concern</div>
+            </div>
+            <div class="form-row">
+                <button>Cancel</button>
+          </div>
+    
+          <div class="form-row">
+              <button>Order Placed</button>
+        </div>
+           
+                </label>
+            </div>
+        </form>
+
+</body>
+</html>
